@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Kitty Shop</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="/images/logo.jpeg" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Products">Products</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="About">
+        <div class="header-content">
+            <h1>The Kitty Shop</h1>
+            <p>Wil jij een vriend voor het leven? Een pluizige, lieve vriend?
+                Dan hoef je niet ver te zoeken bij de kitty shop!
+            </p>
+            <div class="buttons">
+                <button>nieuws</button>
+                <button>foto's</button>
+            </div>
+        </div>
+    </header>
+
+    <main id="Products">
+        <div class="page-content">
+            <h2 class="subheading">Onze supersterren!</h2>
+            <div class="articles-container">
+                <div class="article">
+                    <img src="/images/happy.webp" alt="Article Image">
+                    <h3>Happy cat</h3>
+                    <div class="stars">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                    </div>
+                    <p>Schattige kat en altijd blij hehe.</p>
+                    <button>Read More</button>
+                </div>
+                <div class="article">
+                    <img src="/images/crazy.jpg" alt="Article Image">
+                    <h3>Crazy cat</h3>
+                    <div class="stars">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star-empty"></span>
+                        <span class="star-empty"></span>
+                    </div>
+                    <p>Crazy maar nooit een saai moment!</p>
+                    <button>Read more</button>
+                </div>
+                <div class="article">
+                    <img src="/images/stink.jpg" alt="Article Image">
+                    <h3>Stink</h3>
+                    <div class="stars">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star-empty"></span>
+                        <span class="star-empty"></span>
+                        <span class="star-empty"></span>
+                    </div>
+                    <p>Stinkie met een hart van goud.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-container" id="Contact">
+            <h3 class="form-title">Contact formulier</h3>
+            <form action="#" method="post">
+
+                <div class="name-container">
+                    <div>
+                        <label for="first_name">Voornaam:</label>
+                        <input type="text" id="first_name" name="first_name" placeholder="Voornaam" required>
+                    </div>
+                    <div>
+                        <label for="last_name">Achternaam:</label>
+                        <input type="text" id="last_name" name="last_name" placeholder="Achternaam" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="voorbeeld@email.com" required>
+                </div>
+
+                <div class="info-container">
+                    <div>
+                        <label for="address">Woonplaats:</label>
+                        <input type="text" id="address" name="address" placeholder="Woonplaats" required>
+                    </div>
+                    <div>
+                        <label for="birthday">Verjaardag:</label>
+                        <input type="date" id="birthday" name="birthday" required>
+                    </div>
+                </div>
+
+
+                <div>
+                    <label for="subject">Onderwerp:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="" disabled selected>Kies het onderwerp van het bericht</option>
+                        <option value="happy_cat">Happy Cat</option>
+                        <option value="crazy_cat">Crazy Cat</option>
+                        <option value="stink">Stink</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Bericht:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <div>
+                    <label for="subscribe">Inschrijven voor de nieuwsbrief?</label>
+                    <input type="radio" id="subscribe_yes" name="subscribe" value="yes">
+                    <label for="subscribe_yes">Yes</label>
+                    <input type="radio" id="subscribe_no" name="subscribe" value="no">
+                    <label for="subscribe_no">No</label>
+                </div>
+
+                <div>
+                    <label for="agree_terms">Ik ga akkoord met de algemene voorwaarden</label>
+                    <input type="checkbox" id="agree_terms" name="agree_terms" required>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="logo">
+                    <img src="/images/logo.jpeg" alt="Logo">
+                </div>
+                <p>&copy; 2023 The Kitty Shop Miso S.</p>
+            </div>
+
+            <div class="footer-social">
+                <a href="https://www.instagram.com/misoftware_/?hl=en" target="_blank">
+                    <img src="/images/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com/fftjes.watiser/" target="_blank">
+                    <img src="/images/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://www.snapchat.com/">
+                    <img src="/images/snapchat.png" alt="Snapchat" target="_blank">
+                </a>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Privacyverklaring</a>
+                <a href="#">Algemene voorwaarden</a>
+                <a href="#">Cookiebeleid</a>
+                <a href="#">Contact</a>
+            </div>
+        </footer>
+
+
+    </main>
+
+</body>
+
+</html>
